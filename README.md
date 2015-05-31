@@ -1,4 +1,5 @@
-==projamming==
+Projamming
+===
 
 Create music using network packets as a source for audio. Ever wondered what DHCP sounds like?
 
@@ -6,6 +7,6 @@ Our project turns packets that go over the network into sound. It creates a piec
 
 It allows you to "jam" with multiple computers by connecting to the server and sending whatever you want to it. Different computers produce different sounds. Even just connecting to the network already generates traffic, which translates into sounds.
 
-===The technology===
-
-We used python with pygame for playing sound. We listen on the network directly without a library using a raw socket. We also used some samples from Sonic Pi. And a lot of Club Mate to stay awake.
+The technology
+---
+We used Python with Pygame for playing sound. We listen on the network directly without a library using a raw socket. We also used some samples from Sonic Pi. And a lot of Club Mate to stay awake.
